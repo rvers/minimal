@@ -13,7 +13,7 @@ In this week got familiarized even more with unix environment. We learned that c
 They are convenient when working in different shells. We also read about ssh and scp. Ssh is a  is a secure connection protocol over which we can connect to a remote server.
 But ssh can't copy files over the ssh connetctions thats why we need scp that copies things from remote servers and vice versa.
 
-##Corpus processing
+## Corpus processing
 This week we learned to work with tools such as regex to help us search and process large amounts of text. We also had a look of character encodings and character sets.
 Regex is a very powerful tool that allows us to search very specific patterns from large amounts of text. In this week I learned to manually sort alphabetically and count the frequencies 
 of the concordances appearing in the corpora. We also used sed that is used to edit text:
@@ -47,6 +47,7 @@ Here's a example of a makefile code that removes metatexts, counts all of the co
 >
 >results/%.sent.txt: data/%.no_md.txt
 >	src/sent_per_line.sh $< $@ 
+
 
 
 ## Version Control
