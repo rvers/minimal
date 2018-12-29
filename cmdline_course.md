@@ -19,7 +19,7 @@ This course was an online course with optional workshop classes.
 ## Introduction to Command-Line Environments
 This week we learned the basics of unix environment - how to move from directory to directory and how to create new directories etc.
 This week I got comfortable with unix and with using different shells in terminal and using different editors such as nano and to understand different file types. 
-! [Binary files are not human readable] (assets/img/Binary_executable_file2.png)
+! [alt text](assets/img/Binary_executable_file2.png)
 
 
 ## Navigating a UNIX System
