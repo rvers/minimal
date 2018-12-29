@@ -25,7 +25,6 @@ My email address is of the form first_name.last_name@helsinki.fi.
 Mediapolku 2016
 I was part of a project [_Mediapath_](https://blogs.helsinki.fi/mediapolku/)
 Where we taught kids to use video as a medium. Here's a link to our [video](https://www.youtube.com/watch?v=F0gpEgASocc)
-## Misc.
 
 
 
