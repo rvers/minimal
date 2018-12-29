@@ -26,8 +26,7 @@ Mediapolku 2016
 I was part of a project [_Mediapath_](https://blogs.helsinki.fi/mediapolku/)
 Where we taught kids to use video as a medium. Here's a link to our [video](https://www.youtube.com/watch?v=F0gpEgASocc)
 
-##Misc.
-[Curriculum vitae](https://www.overleaf.com/read/yyjxbmftmsyd)
+## [Curriculum vitae](https://www.overleaf.com/read/yyjxbmftmsyd)
 
 
 
