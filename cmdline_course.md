@@ -2,11 +2,25 @@
 layout: default
 ---
 # Command-line course
+In this course the student would learn:
+*operate in a Unix-like environment.
+*use Unix command-line on a Windows or Mac OSX computer.
+*use the Unix command-line.
+*use regular expressions.
+*processing corpora at a basic level.
+*run programs from the command-line.
+*install programs.
+*write basic scripts.
+*use version control tools.
+*work on a remote server
+This course was an online course with optional workshop classes.
+
 
 ## Introduction to Command-Line Environments
 This week we learned the basics of unix environment - how to move from directory to directory and how to create new directories etc.
 This week I got comfortable with unix and with using different shells in terminal and using different editors such as nano and to understand different file types. 
-! [Binary files are not human readable](https://upload.wikimedia.org/wikipedia/commons/2/29/Binary_executable_file2.png)
+! [Binary files are not human readable] (assets/img/Binary_executable_file2.png)
+
 
 ## Navigating a UNIX System
 In this week got familiarized even more with unix environment. We learned that chmod changes acess persmissions and sudo that lets us commit commands as another user, usually the root user.
