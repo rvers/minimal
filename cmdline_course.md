@@ -28,24 +28,26 @@ Make turned out to be a very powerful and timesaving tool to process and edit co
 we could do a file that has all the commands and when we run it for many different data it will sort the corpora automatically using the commands in
 the makefile.
 Here's a example of a makefile code that removes metatexts, counts all of the concordance frequencies and sorts the data a sentence per line:
-BOOKS=ulysses alice christmas_carol dracula frankenstein heart_of_darkness life_of_bee moby_dick modest_propsal pride_and_prejudice tale_of_two_cities
 
-FREQLISTS=$(BOOKS:%=results/%.freq.txt)
-SENTEDBOOKS=$(BOOKS:%=results/%.sent.txt)
+>BOOKS=ulysses  dracula frankenstein
+>
+>FREQLISTS=$(BOOKS:%=results/%.freq.txt)
+>SENTEDBOOKS=$(BOOKS:%=results/%.sent.txt)
+>
+>all: $(FREQLISTS) $(SENTEDBOOKS)
+>
+>clean:
+>	rm -f results/* data/*no_md.txt
+>
+>%.no_md.txt: %.txt
+>	python3 src/remove_gutenberg_metadata.py $< $@
+>
+>results/%.freq.txt: data/%.no_md.txt 
+>	src/freqlist.sh $< $@
+>
+>results/%.sent.txt: data/%.no_md.txt
+>	src/sent_per_line.sh $< $@ 
 
-all: $(FREQLISTS) $(SENTEDBOOKS)
-
-clean:
-	rm -f results/* data/*no_md.txt
-
-%.no_md.txt: %.txt
-	python3 src/remove_gutenberg_metadata.py $< $@
-
-results/%.freq.txt: data/%.no_md.txt 
-	src/freqlist.sh $< $@
-
-results/%.sent.txt: data/%.no_md.txt
-	src/sent_per_line.sh $< $@ 
 
 ## Version Control
 This week we familiarized ourselves with github that is a online hosting-service for version control. Version control means the tracking of changes in a large program, document or other collections of information. 
