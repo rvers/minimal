@@ -35,7 +35,11 @@ But ssh can't copy files over the ssh connetctions thats why we need scp that co
 This week we learned to work with tools such as regex to help us search and process large amounts of text. We also had a look of character encodings and character sets.
 Regex is a very powerful tool that allows us to search very specific patterns from large amounts of text. In this week I learned to manually sort alphabetically and count the frequencies 
 of the concordances appearing in the corpora. We also used sed that is used to edit text:
+
+
     cat life_of_bee.sent | sed -E 's/.* //' | tr -cd "A-Za-z0-9\n'" | sort | uniq -c | sort -nr | head -1    
+
+
 In this commmand we have a file where every sentence of a book is on it's own line and with sed we remove every other word than the last of the sentece.
 then we remove the punctuation and finally count and sort the data to get the most used last word of the book. 
 
