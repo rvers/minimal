@@ -37,7 +37,7 @@ Regex is a very powerful tool that allows us to search very specific patterns fr
 of the concordances appearing in the corpora. We also used sed that is used to edit text:
 
 
-    cat life_of_bee.sent | sed -E 's/.* //' | tr -cd "A-Za-z0-9\n'" | sort | uniq -c | sort -nr | head -1    
+```cat life_of_bee.sent | sed -E 's/.* //' | tr -cd "A-Za-z0-9\n'" | sort | uniq -c | sort -nr | head -1```    
 
 
 In this commmand we have a file where every sentence of a book is on it's own line and with sed we remove every other word than the last of the sentece.
