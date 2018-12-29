@@ -3,16 +3,16 @@ layout: default
 ---
 # Command-line course
 In this course the student would learn:
-*operate in a Unix-like environment.
-*use Unix command-line on a Windows or Mac OSX computer.
-*use the Unix command-line.
-*use regular expressions.
-*processing corpora at a basic level.
-*run programs from the command-line.
-*install programs.
-*write basic scripts.
-*use version control tools.
-*work on a remote server
+* operate in a Unix-like environment.
+* use Unix command-line on a Windows or Mac OSX computer.
+* use the Unix command-line.
+* use regular expressions.
+* processing corpora at a basic level.
+* run programs from the command-line.
+* install programs.
+* write basic scripts.
+* use version control tools.
+* work on a remote server
 This course was an online course with optional workshop classes.
 
 
