@@ -70,6 +70,15 @@ It is good to keep track of versions because for example in computer programs a 
 We also learned to use repositories that are sort of the directories where all the current data and the history data is. Repositories can be cloned so that they can be modified without the master brach being changed.
 We did a little project which you can see [here](https://github.com/rvers/cmdline-course)
 
+## Building a webpage using GitHub pages
+Finally we made a website which you can see here. We used markdown files to write the content and the pushed the changes to git.
+I learned to use markdown: How to edit text, add links and images and even learned how to do a table like this! Cool!
+
+
+| Tables        | last word     | word  |
+| ------------- |:-------------:| -----:|
+| most common   | hive          | the   |
+| second common | them          |of     |
 
 
 
